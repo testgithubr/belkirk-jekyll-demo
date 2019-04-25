@@ -9,14 +9,14 @@ sections:
   create: all
   templates:
   - post
-- type: heading
-  label: Content
 - type: jekyll-pages
   label: Pages
   create: all
   templates:
   - landing-page
   - page
+- type: heading
+  label: Content
 - type: directory
   path: _people
   label: People
